@@ -1,0 +1,14 @@
+/* Fonts */
+@import url("/fonts/bebasneue/bebasneue.css");
+@import url("/fonts/roboto/roboto.css");
+
+/* Base */
+@import url("/css/base/reset.css");
+@import url("/css/base/base.css");
+
+/* Blocks */
+@import url("/css/blocks/header.css");
+@import url("/css/blocks/section.css");
+@import url("/css/blocks/card.trainer.css");
+@import url("/css/blocks/section-beast.css");
+@import url("/css/blocks/button.css");

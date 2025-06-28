@@ -1,0 +1,55 @@
+.section{
+padding: 150px 0 ;
+}
+.section-trainers{
+}
+.container{
+
+}
+.section-header{
+    margin-bottom: 50px;
+    max-width: 800px;
+    width: 100%;
+    margin: 0 auto;
+
+}
+.section-beast-title{
+    margin-bottom: 10px;
+    font-size: 75px ;
+    font-family: VAR(--font-accent);
+    font-weight: 700;
+    letter-spacing: 0.1em;
+    color: #fff;
+}
+.section-beast-desc{
+margin-bottom: 30px;
+font-family: var( --font-base);
+font-weight: 300;
+font-size: 22px;
+line-height: 150%;
+color: #fff;
+
+
+
+
+
+}
+.section-beast{
+height: 750px;
+
+display: flex;
+align-items: center;
+
+    background-image: image-set(
+        url('/img/beast/beast-bg.jpg') 1x,
+        url('/img/beast/beast-bg@2x.jpg') 1.2x);
+
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+
+    --angel:5%;
+    /* clip-path: polygon(0% var(--angel), 100% 0%, 100% calc(100% - var(--angel)),0% 100%); */
+    clip-path: polygon(0% var(--angel),100% 0%,100% calc(100% - var(--angel)),0% 100%);
+}
