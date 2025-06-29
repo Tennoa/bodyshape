@@ -2,7 +2,6 @@
     padding-top: 30px;
     height: 800px;
 
-    /* background-image: url(/img/hero/hero-bg.jpg); */
     background-image: image-set(
         url('/img/hero/hero-bg.jpg') 1x,
         url('/img/hero/hero-bg@2x.jpg') 1.2x);

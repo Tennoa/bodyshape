@@ -11,19 +11,14 @@ body{
 
     font-family: 'Roboto',sans-serif;
     font-weight: 300;
-    padding-bottom: 600px;
+    padding-bottom: 20px;
 }
 
 a{
     color:#FAFAF5;
     text-decoration: underline;
 }
-/* .title-1{
-    color: #FFD479;
-    font-family: 'Bebas Neue' sans-serif;
-    font-weight: 700;
-    font-size: 96px;
-} */
+
 
 .container{
     max-width: 1200px;

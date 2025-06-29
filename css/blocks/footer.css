@@ -1,0 +1,22 @@
+.footer{
+padding: 70px 0;}
+
+.footer-socials{
+margin-bottom: 30px;
+display: flex;
+list-style-type: none; 
+
+gap: 20px 50px ;
+align-items: center ;
+
+}
+.footer-contacts{
+    display: flex;
+gap: 50px;
+font-size: 14px;
+line-height: 2;
+}
+
+.footer a:hover{
+color: var(--accent);
+}
